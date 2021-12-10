@@ -9,49 +9,91 @@
   </head>
   <body>
     <div class="container">
-        <div class="col-md-6">
-            <form>
-                <div class="form-group">
-                  <label for="firstname">First Name: </label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="firstname"
-                    placeholder="First Name"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="lastname">Last Name: </label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="lastname"
-                    placeholder="Last Name"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="email">Email: </label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    placeholder="E-mail"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="password">Password: </label>
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="password"
-                    placeholder="Password"
-                  />
-                </div>
-                <button type="submit" class="btn btn-success">Send</button>
-            </form>
-              
-        </div>
-      
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="firstname">First Name: </label>
+            <input
+              type="text"
+              class="form-control form-control-sm"
+              id="firstname"
+              placeholder="First Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="lastname">Last Name: </label>
+            <input
+              type="text"
+              class="form-control"
+              id="lastname"
+              placeholder="Last Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              class="form-control form-control-lg"
+              id="email"
+              placeholder="E-mail"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password: </label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="Password"
+            />
+          </div>
+          <div class="form-group">
+            <label for="city">City: </label>
+            <select class="form-control">
+              <option>Ankara</option>
+              <option>İstanbul</option>
+              <option>İzmir</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="email">About: </label>
+            <textarea rows="3" class="form-control" id="bio"> </textarea>
+          </div>
+          <div class="form-check">
+            <label class="form-check" for="term">
+              <input type="checkbox" class="form-check-input" id="term" />I
+              accept the terms.
+            </label>
+            <label class="form-check disabled" for="term">
+              <input type="checkbox" disabled class="form-check-input" id="term" />I
+              accept the terms.
+            </label>
+            <label class="form-check-label" for="term">
+              <input type="checkbox" checked="true" class="form-check-input" id="term" />I
+              accept the terms.
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label"  for="radio">
+              <input type="radio" checked="true" class="form-check-input"  name = "radio" id="radio" />I
+              accept the terms.
+            </label>           
+          </div>
+          <div class="form-check">
+            <label class="form-check-label"  for="radio">
+              <input type="radio" checked="true" class="form-check-input"  name = "radio" id="radio" />I
+              accept the terms.
+            </label>           
+          </div>
+          <div class="form-check">
+            <label class="form-check-label"   for="radio">
+              <input type="radio" checked="true" class="form-check-input"  name = "radio" id="radio" />I
+              accept the terms.
+            </label>           
+          </div>
+          <button type="submit" class="btn btn-success">Send</button>
+        </form>
+      </div>
     </div>
   </body>
   <script
